@@ -119,12 +119,15 @@ map <leader>tm :tabmove
 
 "==============statusline stuff ====================
 set laststatus=2                  " Show the status line all the time
+
 " Useful status information at bottom of screen
-set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
+"set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
 
 "==============color scheme=============================
 colorscheme ir_black
 
-" ================ Custom Settings ========================
-"so ~/.vim/settings.vim
+" ================ Custom Plugin Settings ========================
+let g:airline_powerline_fonts = 1 "enable powerline patched fonts for vim airline status line
+
+"so ~/.vim/settings.vim "this sources the plugin settings if in a config file
 

@@ -25,6 +25,14 @@ Bundle "tpope/vim-rake.git"
 "General vim
 Bundle "tpope/vim-surround"
 
+"File navigation/openfiles etc
+Bundle "scrooloose/nerdtree.git"
+Bundle "kien/ctrlp.vim"
+
+"Cosmetics,colorscheme,powerline ...
+Bundle "bling/vim-airline.git"
+Bundle "jby/tmux.vim.git"
+
 
 "Filetype plugin indent on is required by vundle
 filetype plugin indent on
