@@ -1,0 +1,8 @@
+bundle/**
+~bundle/vundle
+.netrwhist
+tmp
+doc
+snippets
+syntax
+.DS_Store
