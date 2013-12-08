@@ -22,6 +22,9 @@ Bundle "gmarik/vundle"
 Bundle "tpope/vim-rails.git"
 Bundle "tpope/vim-rake.git"
 
+"General vim
+Bundle "tpope/vim-surround"
+
 
 "Filetype plugin indent on is required by vundle
 filetype plugin indent on
